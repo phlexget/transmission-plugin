@@ -1,0 +1,22 @@
+{
+    "name": "phlexget/transmission-plugin",
+    "description": "Add torrents to Transmission directly from Phlexget.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Adán Lobato",
+            "email": "adan.lobato@gmail.com"
+        }
+    ],
+    "require": {
+        "phlexget/phlexget": "1.0.*@dev",
+        "adanlobato/transmission": "1.0.*@dev"
+    },
+    "autoload": {
+        "psr-0": { "Phlexget\\TransmissionPlugin": "" }
+    },
+    "target-dir": "Phlexget/TransmissionPlugin",
+    "extra":{
+        "branch-alias": { "dev-master": "1.0-dev" }
+    }
+}
